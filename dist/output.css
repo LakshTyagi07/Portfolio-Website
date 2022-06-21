@@ -1394,6 +1394,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: calc(100% - 0.25rem);
 }
 
+.h-\[120px\]{
+  height: 120px;
+}
+
 .w-full{
   width: 100%;
 }
@@ -1416,6 +1420,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[115px\]{
   width: 115px;
+}
+
+.w-\[120px\]{
+  width: 120px;
+}
+
+.w-\[\]{
+  width: ;
+}
+
+.w-\[1000px\]{
+  width: 1000px;
 }
 
 .max-w-\[687px\]{
@@ -2329,6 +2345,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\.\.\.\'\)\]{
   background-image: url('...');
 }
@@ -2392,6 +2413,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-clip-text{
   -webkit-background-clip: text;
           background-clip: text;
+}
+
+.bg-left-bottom{
+  background-position: left bottom;
 }
 
 .bg-repeat{
@@ -2686,6 +2711,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-gray-500{
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -3240,6 +3270,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:col-span-6{
     grid-column: span 6 / span 6;
+  }
+
+  .md\:col-span-5{
+    grid-column: span 5 / span 5;
   }
 
   .md\:w-full{
